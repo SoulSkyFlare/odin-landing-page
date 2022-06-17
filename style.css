@@ -1,5 +1,5 @@
 * {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 a, a:hover, a:active, a:visited, a:focus {
     text-decoration:none;
@@ -25,12 +25,16 @@ li {
     justify-content: space-between;
 }
 
-.headerlinks > ul {
+#headerlinks {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#headerlinks > ul {
     display: flex;
     gap: 10px;
     margin: 0px;
 }
-.headerlinks > li {
+#headerlinks > li {
     flex: 0 1 0;
-    flex-wrap: nowrap;
 }
