@@ -1,10 +1,14 @@
 * {
     font-family: 'Roboto', sans-serif;
+    border-style: none;
 }
 a, a:hover, a:active, a:visited, a:focus {
     text-decoration:none;
     color: #F9FAF8;
 
+}
+body {
+    margin: 0;
 }
 a:hover
 {
@@ -23,6 +27,7 @@ li {
     color: #F9FAF8;
     align-items: flex-start;
     justify-content: space-between;
+
 }
 
 #headerlinks {
@@ -43,6 +48,9 @@ li {
 .tophalf
 {
     background: #1f2937;
+    height: 550px;
+    width: 100ww;
+    height: 100wh;
 }
 
 .pinz {
@@ -64,8 +72,17 @@ display: flex;
 align-items: center;
 gap: 50px;
 justify-content: center;
+margin-top: 100px;
 }
-
+.maintext {
+    flex-basis: 0;
+    gap: 20;
+   justify-content: center;
+   align-items: center;
+}
+.maintext > * {
+    margin-bottom: 10px;
+}
 .herotext{
     font-size: 48px;
     font-weight: bolder;
