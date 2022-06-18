@@ -18,8 +18,8 @@ li {
 
 .header {
     display: flex;
-    background-color: #1F2937;
     font-size: 24px;
+    font-weight: 500;
     color: #F9FAF8;
     align-items: flex-start;
     justify-content: space-between;
@@ -28,13 +28,28 @@ li {
 #headerlinks {
     color: #e5e7eb;
     font-size: 18px;
+    align-self: center;
+    font-weight: 300;
 }
 
 #headerlinks > ul {
     display: flex;
-    gap: 10px;
+    gap: 30px;
     margin: 0px;
 }
 #headerlinks > li {
     flex: 0 1 0;
+}
+.tophalf
+{
+    background: #1f2937;
+}
+
+.pinz {
+    border-radius: 12px;
+    background-color: #3882f6;
+    padding: 5px 30px;
+    color: white;
+    font-weight: 500;
+
 }
