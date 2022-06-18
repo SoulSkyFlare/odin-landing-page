@@ -51,5 +51,28 @@ li {
     padding: 5px 30px;
     color: white;
     font-weight: 500;
+    border: none;
+}
 
+.mainimg {
+    width: 300px;
+    height: auto;
+}
+
+.mainbody {
+display: flex;
+align-items: center;
+gap: 50px;
+justify-content: center;
+}
+
+.herotext{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.subhero {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 300;
 }
