@@ -170,7 +170,7 @@ img {
 }
 
 .endbody {
-    font-weight: lighter;
+    font-weight: 300;
     font-size: 15px;
     margin-top: 5px;
 }
@@ -180,4 +180,17 @@ img {
     border-radius: 5px;
     color: #F9FAF8;
 
+}
+.footer{
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    background: #1f2937;
+    justify-content: center;
+    align-items: center;
+}
+.footertext{
+    color: #F9FAF8;
+    font-weight: 300;
+    font-size: 20px;
 }
