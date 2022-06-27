@@ -145,3 +145,39 @@ img {
     font-weight: bold;
     font-size: 36px;
 }
+.endcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.endbox {
+    display: flex;
+    background: #3882f6;
+    justify-content: space-around;
+    margin: 200px 150px;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.endtitle , .endbody {
+    color: #e5e7eb;
+}
+
+.endtitle {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.endbody {
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.endbox > button {
+    background: #3882f6;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    color: #F9FAF8;
+
+}
