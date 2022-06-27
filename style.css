@@ -113,6 +113,7 @@ img {
     flex-direction: column;
     flex: 0;
     gap: 10px;
+    margin-bottom: 100px;
 }
 
 .secondtitle {
@@ -156,17 +157,17 @@ img {
     justify-content: space-around;
     margin: 200px 150px;
     border-radius: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .endtitle , .endbody {
-    color: #e5e7eb;
+    color: #F9FAF8;
 }
 
 .endtitle {
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 25px;
 }
 
 .endbody {
