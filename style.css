@@ -26,7 +26,7 @@ li {
     font-weight: 500;
     color: #F9FAF8;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
@@ -99,17 +99,20 @@ margin-top: 100px;
 
 img {
     object-fit: cover;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
-.secondhalf {
+.secondimg {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .imgcaption {
     display: flex;
     flex-direction: column;
+    flex: 0;
+    gap: 10px;
 }
 
 .secondtitle {
@@ -118,5 +121,27 @@ img {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+}
 
+.imgcaption > img {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3882f6;
+    border-radius: 25px;
+}
+.quotesection {
+    background: #e5e7eb;
+}
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    text-align: center;
+    padding: 100px 150px 30px 150px
+}
+.author {
+    text-align: end;
+    padding: 0 30px;
+    font-weight: bold;
+    font-size: 36px;
 }
