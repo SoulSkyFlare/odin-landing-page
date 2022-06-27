@@ -60,11 +60,13 @@ li {
     color: white;
     font-weight: 500;
     border: none;
+    font-size: 20px;
 }
 
 .mainimg {
     width: 300px;
     height: auto;
+    margin-left: 150px;
 }
 
 .mainbody {
@@ -87,9 +89,34 @@ margin-top: 100px;
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    width: 400px;
 }
 .subhero {
     font-size: 18px;
     color: #e5e7eb;
     font-weight: 300;
+}
+
+img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.secondhalf {
+    display: flex;
+}
+
+.imgcaption {
+    display: flex;
+    flex-direction: column;
+}
+
+.secondtitle {
+    margin: 50px auto;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+
 }
